@@ -24,15 +24,18 @@ body {
     grid-template-rows: repeat(3, max-content);
     background-color: rgb(35, 106, 238);
     color: white;
+    padding: 12px 24px;
+    row-gap: 50px;
 }
 .logo-heading {
     display: grid;
     grid-template-columns: 50px auto;
     align-items: center;
     gap: 10px;
+    margin-bottom: 50px;
 }
 .logo-heading h5 {
-    font-size: 700;
+    font-weight: 700;
     font-size: 2rem;
 }
 .logo-heading svg {
@@ -40,9 +43,32 @@ body {
     width: 50px;
     fill: white;
 }
+.nav-section,.settings-section {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 50px;
+}
 
-svg {
+.nav-item {
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    gap: 10px;
+}
+.nav-item svg {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
+    justify-self: center;
+}
+
+.nav-item p {
+    font-size: 1.5rem;
+}
+
+
+/* svg {
     height: 24px;
     width: 24px;
     fill: white;
-}
+} */
