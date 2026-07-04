@@ -322,3 +322,7 @@ body {
 .use-desc {
     font-size: 0.8rem;
 }
+
+.content-title, .section-title {
+    margin-bottom: 10px;
+}
