@@ -89,6 +89,48 @@ body {
 
 .header-section {
     min-height: 100px;
-    background-color: #009689;
+    background-color: oklch(60% 0.118 184.704);
     grid-area: 1 / 2 / 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    padding: 16px 40px;
+    align-content: center;
+}
+
+.search-section {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 12px;
+}
+
+#search_bar {
+    width: min(1500px, 100%);
+    background-color: lightblue;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    outline: none;
+    font-family: inherit;
+}
+
+.search-section svg, #bell_icon {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 20px;
+    justify-self: end;
+}
+
+#profile_picture {
+    height: 4rem;
+    width: 4rem;
 }
