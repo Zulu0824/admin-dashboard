@@ -83,3 +83,9 @@ body {
 
 /* ------------------------------------------------------------------------------------------------ */
 /* Header section */
+
+.header-section {
+    min-height: 100px;
+    background-color: lightcoral;
+    grid-area: 1 / 2 / 2 / 4;
+}
