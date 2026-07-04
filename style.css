@@ -106,7 +106,7 @@ body {
 }
 
 #search_bar {
-    width: min(1500px, 100%);
+    width: min(500px, 100%);
     background-color: lightblue;
     border: none;
     border-radius: 50px;
@@ -116,10 +116,10 @@ body {
     font-family: inherit;
 }
 
-.search-section svg, #bell_icon {
+.search-section svg {
     height: 2rem;
     width: 2rem;
-    fill: white;
+    fill: rgb(0, 0, 0);
 }
 
 .profile-section {
@@ -128,9 +128,18 @@ body {
     align-items: center;
     gap: 20px;
     justify-self: end;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#bell_icon {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
 }
 
 #profile_picture {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
