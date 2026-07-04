@@ -25,6 +25,22 @@ body {
     background-color: rgb(35, 106, 238);
     color: white;
 }
+.logo-heading {
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    gap: 10px;
+}
+.logo-heading h5 {
+    font-size: 700;
+    font-size: 2rem;
+}
+.logo-heading svg {
+    height: 50px;
+    width: 50px;
+    fill: white;
+}
+
 svg {
     height: 24px;
     width: 24px;
