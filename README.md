@@ -1,5 +1,5 @@
 # Admin Dashboard Project
-This Project is a part of "The Odin Project", It is mainly built using CSS grid (to practice grids).
+This Project is a part of "The Odin Project", It is mainly built using CSS grid (as per project guidelines).
 
 ---
 
@@ -18,4 +18,7 @@ This Project is a part of "The Odin Project", It is mainly built using CSS grid 
 2. CSS
 
 ---
- 
+
+## Resources
+1. SVGs for nav-items : https://pictogrammers.com/library/mdi/
+2. SVGs for profile picutres :https://icons8.com/icons/set/svg
